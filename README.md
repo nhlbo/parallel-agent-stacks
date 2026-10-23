@@ -3,8 +3,8 @@
 Run several coding agents in parallel, each with its own isolated stack: one Docker Compose stack per git worktree,
 each on its own Tailscale hostname, optionally running on a remote devbox synced with Mutagen.
 
-The demo app is a small FastAPI + Postgres service. The ideas behind it are explained in a companion blog post
-(link coming soon).
+The demo app is a small FastAPI + Postgres service. The ideas behind it are explained in the companion blog post,
+[How we run coding agents in parallel](https://nhlbo.substack.com/p/how-we-run-coding-agents-in-parallel).
 
 ![Workflow overview](docs/workflow.png)
 
